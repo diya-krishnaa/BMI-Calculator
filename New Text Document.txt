@@ -1,0 +1,13 @@
+js
+-----
+
+function login(){
+    const username = usernameInput.value
+    console.log(username);
+    localStorage.setItem("username",username)
+    // rediect to dashboard
+    window.location ="dash.html"
+}
+
+login
+-------
